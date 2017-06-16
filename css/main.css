@@ -1,0 +1,97 @@
+.container, header {
+    display: flex;
+    flex-wrap: wrap;
+    color: #2d3c49;
+    font-family: "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-weight: normal;
+}
+h1, h2, h3, p {
+    margin: 0; 
+    font-weight: normal;
+}
+
+/*sidebar*/
+.sidebar {
+    align-content: center;
+    color: #2d3c49;
+    font-family: "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+    margin-top: 18vh;
+    display: none;
+}
+.box {
+    margin-left: 20px;
+    margin-top: 2vh;
+}
+.blue {
+    background-color: #02b3e4;
+    height: 10vmin;
+    width: 10vmin;
+}
+.black {
+    background-color: #2d3c49;
+    height: 10vmin;
+    width: 10vmin;
+}
+.gray {
+    background-color: #7d97ad;
+    height: 10vmin;
+    width: 10vmin;
+}
+
+/*Header*/
+.logo {
+    width: 10vmin;
+    height: 10vmin;
+    margin: 5vh 2vw 1vh;
+}
+.header_text {
+    text-align: right;
+    margin-top: 3vh;
+}
+header h1{
+    font-size: 3em;
+    font-weight: lighter;
+}
+header p {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: -.8em 0 .8em;
+}
+header {
+    border-bottom: .3em solid #7d97ad;
+    margin-bottom: 3vh;
+}
+
+/*jumbotron*/
+.jumbotron {
+    text-align: center;
+}
+.jumbotron img{
+    width: 100%;
+}
+
+/*main*/
+.main {
+    margin-top: 3vh;
+}
+.main .container {
+    text-align: center;
+}
+figure {
+    margin: .2em;
+}
+.main h3 {
+    color: #7d97ad;
+    font-size: 1.8em;
+    margin-left: 1em;  
+}
+.main h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.main a {
+    text-decoration: none;
+    font-size: .7em;
+}
