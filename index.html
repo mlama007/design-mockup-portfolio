@@ -10,20 +10,12 @@
     <title>design-mockup-portfolio</title>
 </head>
 <body>
-    <section class="sidebar">
-        <div class="blue box"></div>
-        <p>#02b3e4</p>
-        <div class="black box"></div>
-        <p>#2d3c49</p>
-        <div class="gray box"></div>
-        <p>#7d97ad</p>
-    </section>
-    <section class="content">
+    <div class="content">
         <header>
-            <div class="header_logo">
+            <div class="header-logo">
                 <img class="logo" src="images/udacity.svg" alt="Udacity logo">
             </div>
-            <div class="header_text">
+            <div class="header-text">
                 <h1>JANE DOETTE</h1>
                 <p>FRONT-END NINJA</p>
             </div>
@@ -31,33 +23,47 @@
         <article class="jumbotron">
             <img src="images/code.webp" alt="Picture of code">
         </article>
-        <section class="main"> 
+        <main> 
             <h3>Featured Work</h3>
             <div class="container">            
                 <div class="works">
-                    <figure>
-                        <img src="images/Adoptly.webp" alt="Website with dogs">
-                    </figure>
+                    <picture> 
+                        <source 
+                        media=" (min—width : 930px)"
+                        srcset= "images/Adoptly_large.webp">
+                        <source media=" (min—width : 588px)"srcset= "images/Adoptly_small.webp">
+                        <img src="images/Adoptly_medium.webp" alt="Website with dogs">
+                    </picture>
                     <h2>ADOPTLY</h2>
-                    <a href="https://github.com/mlama007/8Adoptly">https://github.com/mlama007/8Adoptly</a>
+                    <a href="https://github.com/mlama007/8Adoptly" target="_blank">https://github.com/mlama007/8Adoptly</a>
                 </div>
                 <div class="works">
-                    <figure>
+                    <!--<figure>
                         <img src="images/Junc.webp" alt="Website with mountain and lake view">
-                    </figure>
+                    </figure>-->
+                    <picture> 
+                        <source media=" (min—width : 930px)" srcset= "images/Junc_large.webp">
+                        <source media=" (min—width : 588px)" srcset= "images/Junc_small.webp">
+                        <img src="images/Junc_medium.webp" alt="Website with mountain and lake view">
+                    </picture>
                     <h2>JUNCTION</h2>
-                    <a href="https://github.com/mlama007/7Junction">https://github.com/mlama007/7Junction</a>
+                    <a href="https://github.com/mlama007/7Junction" target="_blank">https://github.com/mlama007/7Junction</a>
                 </div>
                 <div class="works">
-                    <figure>
+                    <!--<figure>
                         <img src="images/shutt.webp" alt="Website with guy with bike">
-                    </figure>
+                    </figure>-->
+                    <picture> 
+                        <source media=" (min—width : 930px)"srcset= "images/shutt_large.webp">
+                        <source media=" (min—width : 588px)" srcset= "images/shutt_small.webp">
+                        <img src="images/shutt_medium.webp" alt="Website with guy with bike">
+                    </picture>
                     <h2>SHUTTERBUG</h2>
-                    <a href="https://github.com/mlama007/4Shutterbug">https://github.com/mlama007/4Shutterbug</a>
+                    <a href="https://github.com/mlama007/4Shutterbug" target="_blank">https://github.com/mlama007/4Shutterbug</a>
                 </div>
             </div>
-        </section>
-    </section>
+        </main>
+    </div>
 </body>
 </html>
 

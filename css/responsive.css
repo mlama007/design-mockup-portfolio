@@ -3,50 +3,62 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .header_logo {
+
+    .header-logo {
         width: 20%;
     }
-    .header_text {
+
+    .header-text {
         width: 80%;
     }
+
     header h1 {
         font-size: 1.5em;
         font-weight: lighter;
         margin: 0;
     }
+
     header p {
         font-size: 1em;
     }
-    .main {
+
+    main {
         display: inline;
         text-align: center;
     }
+
     .works {
         width: 100%;
         margin-left: auto ;
         margin-right: auto ;
     }
 }
+
 @media screen and (min-width: 588px) {
     header {
         display: flex;
         flex-wrap: wrap;
     }
-    .header_logo {
+
+    .header-logo {
         width: 50%;
     }
-    .header_text {
+
+    .header-text {
         width: 50%;
     }
+    
     header h1 {
         font-size: 2em;
         font-weight: lighter;
     }
+
     header p {
         font-size: 1.5em;
         margin-top: .002em;
     }
-    .main {
+
+    main {
         width: 100vmin;
     }
 }
@@ -56,15 +68,19 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .header_logo {
+
+    .header-logo {
         width: 50%;
     }
-    .header_text {
+
+    .header-text {
         width: 50%;
     }
+
     header {
         font-size: 1em;
     }
+
     .works img {
         width: 100%;
     }
@@ -75,21 +91,27 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .header_logo {
+
+    .header-logo {
         width: 50%;
     }
-    .header_text {
+
+    .header-text {
         width: 50%;
     }
-    .main {
+
+    main {
         width: 100%;
     }
+
     .works {
         width: 33.3333333%;
     }
+
     .works img {
         width: 100%;
     }
+
     body {
         width: 730px;
         margin-left: auto;
@@ -102,21 +124,27 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .header_logo {
+
+    .header-logo {
         width: 50%;
     }
-    .header_text {
+
+    .header-text {
         width: 50%;
     }
-    .main {
+
+    main {
         width: 100%;
     }
+
     .works {
         width: 33.3333333%;
     }
+
     .works img {
         width: 100%;
     }
+
     body {
         width: 900px;
         margin-left: auto;
@@ -129,32 +157,36 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .sidebar {
-        display: block;
-        width: 15%;
-    }
+    
     .content {
-        width: 85%;
+        width: 100%;
     }
+
     header {
         display: flex;
         flex-wrap: wrap;
     }
-    .header_logo {
+
+    .heade-logo {
         width: 50%;
     }
-    .header_text {
+
+    .header-text {
         width: 50%;
     }
-    .main {
+
+    main {
         width: 100%;
     }
+
     .works {
         width: 33.3333333%;
     }
+
     .works img {
         width: 100%;
     }
+
     body {
         width: 1050px;
         margin-left: auto;
